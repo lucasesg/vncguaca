@@ -9,7 +9,7 @@ Olá, segue script de instalação do vnc destinado a acesso guacamole apache.
 Segue abaixo o comando que executara no terminal. O comando vai realizar o download script, permissão e instalação.
 
 ```bash
-wget https://github.com/lucasesg/vncguacamole/blob/main/vnc.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
+wget https://raw.githubusercontent.com/lucasesg/vncguacamole/main/vnc.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
 ```
 # O QUE O COMANDO REALIZA ?
 
