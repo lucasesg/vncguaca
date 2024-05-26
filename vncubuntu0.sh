@@ -37,8 +37,6 @@ Restart=on-failure
 WantedBy=multi-user.target" | sudo tee /lib/systemd/system/x11vnc.service
 
 sudo systemctl daemon-reload
-sudo systemctl restart x11vnc.service
-sudo systemctl stop x11vnc.service
 sudo systemctl enable x11vnc.service
 sudo systemctl start x11vnc.service
 
