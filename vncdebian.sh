@@ -9,8 +9,7 @@ echo "
 #	 ALLGENIUS
 #
 #
-#########################################
-"
+#########################################"
 
 sleep 5
 
@@ -21,8 +20,6 @@ apt update
 # Instalar x11vnc
 
 apt install x11vnc
-
-sleep 2
 
 # Criar o arquivo de serviço para x11vnc
 
