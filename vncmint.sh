@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "
-
 #########################################
 #
 #
@@ -10,10 +9,9 @@ echo "
 #	 Ａｌｌｇｅｎｉｕｓ
 #
 #
-#########################################
-"
+#########################################"
 
-sleep 7
+sleep 5
 
 # Atualizar o sistema
 
@@ -38,11 +36,7 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target" | sudo tee /lib/systemd/system/x11vnc.service
 
-sleep 2
-
 sudo systemctl daemon-reload
-sudo systemctl restart x11vnc.service
-sudo systemctl stop x11vnc.service
 sudo systemctl enable x11vnc.service
 sudo systemctl start x11vnc.service
 
