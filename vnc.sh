@@ -45,9 +45,9 @@ WantedBy=multi-user.target" | sudo tee /lib/systemd/system/x11vnc.service
 sleep 2
 
 sudo systemctl daemon-reload
-sudo systemctl restart x11vnc.service
-sudo systemctl stop x11vnc.service
-sudo systemctl enable x11vnc.service
+sudo systemctl restart x11vnc.service /
+sudo systemctl stop x11vnc.service /
+sudo systemctl enable x11vnc.service /
 sudo systemctl start x11vnc.service
 
 sleep 2
@@ -76,11 +76,11 @@ sleep 2
 sudo nano /etc/lightdm/lightdm.conf
 
 sleep 3
-
+sudo systemctl status x11vnc.service
 # Reiniciar
 
-echo "⚠ EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO ⚠"
+# echo "⚠ EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO ⚠"
 
 sleep 10
 
-sudo systemctl reboot
+# sudo systemctl reboot
