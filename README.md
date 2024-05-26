@@ -14,15 +14,15 @@ Segue abaixo o comando que executara no terminal e fique atento ao wget e a sua 
 
 Ubuntu/Lubuntu - vncubuntu0.sh - Versões antiga
 ```bash
-wget https://raw.githubusercontent.com/lucasesg/vncguacamole/main/vncubuntu0.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
+wget https://raw.github.com/lucasesg/vncguacamole/main/vncubuntu0.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
 ```
 Ubuntu/Lubuntu - vncubuntu1.sh - Novas versões
 ```bash
-wget https://raw.githubusercontent.com/lucasesg/vncguacamole/main/vncubuntu1.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
+wget https://raw.github.com/lucasesg/vncguacamole/main/vncubuntu1.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
 ```
 MINT - vncmint.sh - Versão ubuntu
 ```bash
-wget https://raw.githubusercontent.com/lucasesg/vncguacamole/main/vncmint.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
+wget https://raw.github.com/lucasesg/vncguacamole/main/vncmint.sh && sudo chmod +x vnc.sh && sudo ./vnc.sh
 ```
 # O QUE O SCRIPT REALIZA ?
 
