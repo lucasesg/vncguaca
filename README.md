@@ -47,6 +47,6 @@ Segue abaixo o que está no codigo para execução da instalação.
 
 <br/>
 ✔️ Ubuntu
-❌ Lubuntu
+✔️ Lubuntu
+✔️ Mint
 ❌ Debian
-❌ Mint
