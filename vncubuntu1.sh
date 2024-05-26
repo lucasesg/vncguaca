@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "
-
 #########################################
 #
 #
@@ -10,10 +9,9 @@ echo "
 #	 Ａｌｌｇｅｎｉｕｓ
 #
 #
-#########################################
-"
+#########################################"
 
-sleep 7
+sleep 5
 
 # Atualizar o sistema
 
@@ -41,8 +39,6 @@ Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target" | sudo tee /lib/systemd/system/x11vnc.service
-
-sleep 2
 
 sudo systemctl daemon-reload
 sudo systemctl restart x11vnc.service
@@ -75,7 +71,7 @@ sleep 2
 
 sudo nano /etc/lightdm/lightdm.conf
 
-sleep 3
+sleep 2
 
 # Reiniciar
 
