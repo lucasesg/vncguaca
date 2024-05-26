@@ -35,7 +35,7 @@ ExecStop=/usr/bin/killall x11vnc
 Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target" | sudo tee /lib/systemd/system/x11vnc.service
+WantedBy=multi-user.target" | tee /lib/systemd/system/x11vnc.service
 
 sleep 2
 
