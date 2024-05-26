@@ -22,9 +22,11 @@ apt update
 
 apt install x11vnc
 
+sleep 5
+
 # Criar o arquivo de serviço para x11vnc
 
-echo [Unit]
+echo "[Unit]
 Description=x11vnc service
 After=display-manager.service network.target syslog.target
 
@@ -35,7 +37,7 @@ ExecStop=/usr/bin/killall x11vnc
 Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target | tee /lib/systemd/system/x11vnc.service
+WantedBy=multi-user.target" | tee /lib/systemd/system/x11vnc.service
 
 sleep 2
 
