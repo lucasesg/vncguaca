@@ -12,7 +12,7 @@ echo "
 #########################################
 "
 
-sleep 7
+sleep 5
 
 # Atualizar o sistema
 
@@ -22,7 +22,7 @@ apt update
 
 apt install x11vnc
 
-sleep 5
+sleep 2
 
 # Criar o arquivo de serviço para x11vnc
 
@@ -39,11 +39,7 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target" | tee /lib/systemd/system/x11vnc.service
 
-sleep 2
-
 systemctl daemon-reload
-systemctl restart x11vnc.service
-systemctl stop x11vnc.service
 systemctl enable x11vnc.service
 systemctl start x11vnc.service
 
