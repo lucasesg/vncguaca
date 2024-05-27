@@ -19,7 +19,7 @@ sudo apt-get update
 
 # Instalar x11vnc
 
-sudo apt-get install -y x11vnc
+sudo apt-get install x11vnc
 
 # Criar o arquivo de serviço para x11vnc
 
