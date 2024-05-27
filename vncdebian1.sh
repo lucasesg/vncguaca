@@ -27,9 +27,9 @@ sudo apt-get install x11vnc
 
 # Criar o arquivo de serviço para x11vnc
 
-echo "[Unit]
+echo '[Unit]
 Description=x11vnc service
-After=display-manager.service network.target syslog.target
+After=multi-user.target
 
 [Service]
 Type=simple
@@ -38,7 +38,7 @@ ExecStop=/usr/bin/killall x11vnc
 Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target" | sudo tee /lib/systemd/system/x11vnc.service
+WantedBy=multi-user.target' | sudo tee /lib/systemd/system/x11vnc.service
 
 sudo systemctl daemon-reload
 sudo systemctl enable x11vnc.service
@@ -46,7 +46,7 @@ sudo systemctl start x11vnc.service
 
 # Escrever texto lightdm.conf
 
-echo "[SeatDefaults]
+echo '[SeatDefaults]
 # desativar login convidado
 
 allow-guest=false
@@ -58,8 +58,8 @@ autologin-user="nomePDV"
 # tempo para o autologin
 
 autologin-user-timeout=0
-user-session=Lubuntu
-greeter-session=lightdm-gtk-greeter" | sudo tee /etc/lightdm/lightdm.conf
+user-session=debian
+greeter-session=lightdm-gtk-greeter' | sudo tee /etc/lightdm/lightdm.conf
 
 # configurar nome pdv
 
