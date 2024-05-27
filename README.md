@@ -20,10 +20,10 @@ MINT - vncmint.sh - Versão ubuntu
 ```bash
 wget https://raw.github.com/lucasesg/vncguaca/main/vncmint.sh && sudo chmod +x vncmint.sh && sudo ./vncmint.sh
 ```
-DEBIAN - vncdebian.sh - Versões antiga (EM FASE DE TESTES)
-```bash
-wget https://raw.github.com/lucasesg/vncguaca/main/vncdebian.sh.sh && chmod +x vncdebian.sh && ./vncdebian.sh
-```
+DEBIAN - vncdebian0.sh - Versões antiga (EM FASE DE TESTES)<br/>
+DEBIAN - vncdebian1.sh - Versões antiga (EM FASE DE TESTES)<br/>
+CENTOS 7 - vnccentos.sh - Nova versão (EM FASE DE TESTES)
+
 # O QUE O SCRIPT REALIZA ?
 
 Segue as informações da estrutura do script.
