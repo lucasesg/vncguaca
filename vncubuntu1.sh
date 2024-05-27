@@ -41,12 +41,8 @@ Restart=on-failure
 WantedBy=multi-user.target" | sudo tee /lib/systemd/system/x11vnc.service
 
 sudo systemctl daemon-reload
-sudo systemctl restart x11vnc.service
-sudo systemctl stop x11vnc.service
 sudo systemctl enable x11vnc.service
 sudo systemctl start x11vnc.service
-
-sleep 2
 
 # Escrever texto lightdm.conf
 
@@ -65,13 +61,9 @@ autologin-user-timeout=0
 user-session=Lubuntu
 greeter-session=lightdm-gtk-greeter" | sudo tee /etc/lightdm/lightdm.conf
 
-sleep 2
-
 # configurar nome pdv
 
 sudo nano /etc/lightdm/lightdm.conf
-
-sleep 2
 
 # Reiniciar
 
