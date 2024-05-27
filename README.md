@@ -39,6 +39,8 @@ Segue as informações da estrutura do script.
 - Mensagem final informando que houve sucesso na instalação
 - Reiniciar linux
 
+_Obs: Em alguns casos apenas é instalado x11vnc e configurado. Dispensando a configuração do lightdm._
+
 ## 🛠 Distruibuição Linux suportada
 
 <br/>
