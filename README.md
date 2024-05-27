@@ -10,19 +10,19 @@ Segue abaixo os comandos que precisa digitar no terminal linux. Fique atento ao 
 
 Ubuntu/Lubuntu - vncubuntu0.sh - Versões antiga
 ```bash
-wget https://raw.github.com/lucasesg/vncguacamole/main/vncubuntu0.sh && sudo chmod +x vncubuntu0.sh && sudo ./vncubuntu0.sh
+wget https://raw.github.com/lucasesg/vncguaca/main/vncubuntu0.sh && sudo chmod +x vncubuntu0.sh && sudo ./vncubuntu0.sh
 ```
 Ubuntu/Lubuntu - vncubuntu1.sh - Novas versões
 ```bash
-wget https://raw.github.com/lucasesg/vncguacamole/main/vncubuntu1.sh && sudo chmod +x vncubuntu1.sh && sudo ./vncubuntu1.sh
+wget https://raw.github.com/lucasesg/vncguaca/main/vncubuntu1.sh && sudo chmod +x vncubuntu1.sh && sudo ./vncubuntu1.sh
 ```
 MINT - vncmint.sh - Versão ubuntu
 ```bash
-wget https://raw.github.com/lucasesg/vncguacamole/main/vncmint.sh && sudo chmod +x vncmint.sh && sudo ./vncmint.sh
+wget https://raw.github.com/lucasesg/vncguaca/main/vncmint.sh && sudo chmod +x vncmint.sh && sudo ./vncmint.sh
 ```
 DEBIAN - vncdebian.sh - Versões antiga (EM FASE DE TESTES)
 ```bash
-wget https://raw.github.com/lucasesg/vncguacamole/main/vncdebian.sh.sh && chmod +x vncdebian.sh && ./vncdebian.sh
+wget https://raw.github.com/lucasesg/vncguaca/main/vncdebian.sh.sh && chmod +x vncdebian.sh && ./vncdebian.sh
 ```
 # O QUE O SCRIPT REALIZA ?
 
