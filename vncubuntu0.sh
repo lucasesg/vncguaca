@@ -42,7 +42,7 @@ sudo systemctl start x11vnc.service
 
 # Reiniciar
 
-echo "⚠ EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO ⚠"
+echo "EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO!!!"
 
 sleep 10
 
