@@ -15,15 +15,11 @@ sleep 5
 
 # Atualizar o sistema
 
-sudo yum update
-
-# Instalar wget
-
-sudo yum install wget
+sudo apt update
 
 # Instalar x11vnc
 
-sudo yum install x11vnc
+sudo apt install x11vnc
 
 # Criar o arquivo de serviço para x11vnc
 
