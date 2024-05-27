@@ -1,7 +1,3 @@
-<p align="center"><img width="280" src="https://allgenius.com.br/wp-content/uploads/2018/07/logotopositel.png"></p>
-
-<br/>
-
 ## SCRIPT DE INSTALAÇÃO FÁCIL PROTOCOLO VNC LINUX
 
 Olá, segue script de instalação do vnc (x11vnc) destinado a acesso Guacamole Apache. Sobre o VNC (Virtual Network Computing) é um protocolo gráfico de rede muito útil (aplicativos executados em um computador, mas exibindo suas janelas em outro)
