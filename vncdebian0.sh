@@ -4,9 +4,7 @@ echo "
 #########################################
 #
 #
-#	SCRIPT DE INSTALAÇÃO VNC BY
-#
-#	 ALLGENIUS
+#	SCRIPT DE INSTALAÇÃO VNC
 #
 #
 #########################################"
