@@ -15,11 +15,11 @@ sleep 5
 
 # Atualizar o sistema
 
-apt-get update
+sudo apt-get update
 
 # Instalar x11vnc
 
-apt-get install -y x11vnc
+sudo apt-get install -y x11vnc
 
 # Criar o arquivo de serviço para x11vnc
 
@@ -34,11 +34,11 @@ ExecStop=/usr/bin/killall x11vnc
 Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target' | tee /lib/systemd/system/x11vnc.service
+WantedBy=multi-user.target' | sudo tee /lib/systemd/system/x11vnc.service
 
-systemctl daemon-reload
-systemctl enable x11vnc.service
-systemctl start x11vnc.service
+sudo systemctl daemon-reload
+sudo systemctl enable x11vnc.service
+sudo systemctl start x11vnc.service
 
 sleep 2
 
@@ -48,4 +48,4 @@ echo "⚠ EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃ
 
 sleep 10
 
-systemctl reboot
+sudo systemctl reboot
