@@ -35,14 +35,14 @@ Segue as informações da estrutura do script.
 - Criar o arquivo de serviço para x11vnc
 - Reiniciar e ativar serviços Daemon e x11vnc
 - Criar o arquivo de serviço para light
-- Alterar o nomePDV manualmente
+- Alterar o nomePDV manualmente (alterar para o nome do usuário do computador)
 - Mensagem final informando que houve sucesso na instalação
 - Reiniciar linux
 
 ## 🛠 Distruibuição Linux suportada
 
 <br/>
-✔️ Ubuntu
-✔️ Lubuntu
-✔️ Mint
-❌ Debian
+:white_check_mark: Ubuntu
+:white_check_mark: Lubuntu
+:white_check_mark: Mint
+:x: Debian
