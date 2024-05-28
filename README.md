@@ -22,7 +22,6 @@ wget https://raw.github.com/lucasesg/vncguaca/main/vncmint.sh && sudo chmod +x v
 ```
 DEBIAN - vncdebian0.sh - Versões antiga (EM FASE DE TESTES)<br/>
 DEBIAN - vncdebian1.sh - Versões antiga (EM FASE DE TESTES)<br/>
-CENTOS 7 - vnccentos.sh - Nova versão (EM FASE DE TESTES)
 
 # O QUE O SCRIPT REALIZA ?
 
