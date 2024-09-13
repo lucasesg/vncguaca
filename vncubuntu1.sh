@@ -1,11 +1,8 @@
 #!/bin/bash
 
-echo "
-#########################################
-#
-#	SCRIPT DE INSTALAÇÃO VNC
-#
-#########################################"
+echo "##################################"
+echo "### SCRIPT DE INSTALAÇÃO VNC #####"
+echo "##################################"
 
 sleep 4
 
@@ -60,7 +57,6 @@ sudo nano /etc/lightdm/lightdm.conf
 # Reiniciar
 
 echo "EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO!!!"
-
 sleep 10
 
 sudo systemctl reboot
