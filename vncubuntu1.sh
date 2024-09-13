@@ -15,11 +15,11 @@ sudo apt-get update -y
 
 # Instalar LightDM
 
-sudo apt install lightdm
+sudo apt install lightdm -y
 
 # Instalar x11vnc
 
-sudo apt install x11vnc
+sudo apt install x11vnc -y
 
 # Criar o arquivo de serviço para x11vnc
 
