@@ -29,7 +29,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable x11vnc.service
 sudo systemctl start x11vnc.service
 
-# Reiniciar
+# Finalizar e reiniciar
 echo "EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO!! "
 sleep 10
 sudo systemctl reboot
