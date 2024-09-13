@@ -3,15 +3,12 @@
 echo "##################################"
 echo "### SCRIPT DE INSTALAÇÃO VNC #####"
 echo "##################################"
-
 sleep 4
 
 # Atualizar o sistema
-
 sudo apt-get update -y
 
 # Instalar LightDM x11vnc
-
 sudo apt-get install lightdm x11vnc -y
 
 # Criar o arquivo de serviço para x11vnc
@@ -51,12 +48,9 @@ user-session=Lubuntu
 greeter-session=lightdm-gtk-greeter" | sudo tee /etc/lightdm/lightdm.conf
 
 # configurar nome pdv
-
 sudo nano /etc/lightdm/lightdm.conf
 
-# Reiniciar
-
+# Finalizar e reiniciar
 echo "EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO!!!"
 sleep 10
-
 sudo systemctl reboot
