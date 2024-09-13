@@ -3,17 +3,15 @@
 echo "
 #########################################
 #
-#
 #	SCRIPT DE INSTALAÇÃO VNC
 #
-#	 
 #########################################"
 
 sleep 5
 
 # Atualizar o sistema
 
-sudo apt update
+sudo apt-get update -y
 
 # Instalar LightDM
 
