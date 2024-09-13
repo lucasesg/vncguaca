@@ -1,24 +1,17 @@
 #!/bin/bash
 
-echo "
-#########################################
-#
-#	SCRIPT DE INSTALAÇÃO VNC
-#
-#########################################"
-
+echo "##################################"
+echo "#### SCRIPT DE INSTALAÇÃO VNC ####"
+echo "##################################"
 sleep 4
 
 # Atualizar o sistema
-
 sudo apt-get update -y
 
 # Instalar x11vnc
-
 sudo apt-get install x11vnc -y
 
 # Criar o arquivo de serviço para x11vnc
-
 echo "[Unit]
 Description=x11vnc service
 After=display-manager.service network.target syslog.target
@@ -37,9 +30,6 @@ sudo systemctl enable x11vnc.service
 sudo systemctl start x11vnc.service
 
 # Reiniciar
-
-echo "EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO!!!"
-
+echo "EM 10 SEGUNDOS O PDV LINUX VAI REINICIAR PARA APLICAR TODA INSTALAÇÃO!! "
 sleep 10
-
 sudo systemctl reboot
