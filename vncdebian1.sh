@@ -11,17 +11,9 @@ echo "
 
 sleep 5
 
-# Atualizar o sistema
+# Atualizar o sistema e instalar x11vnc
 
-sudo apt-get update
-
-# Instalar LightDM
-
-sudo apt-get install lightdm
-
-# Instalar x11vnc
-
-sudo apt-get install x11vnc
+sudo apt update && sudo apt install -y x11vnc
 
 # Criar o arquivo de serviço para x11vnc
 
@@ -44,24 +36,13 @@ sudo systemctl start x11vnc.service
 
 # Escrever texto lightdm.conf
 
-echo '[SeatDefaults]
-# desativar login convidado
-
-allow-guest=false
-
-# login automático
-
-autologin-user="nomePDV"
-
-# tempo para o autologin
-
-autologin-user-timeout=0
-user-session=debian
-greeter-session=lightdm-gtk-greeter' | sudo tee /etc/lightdm/lightdm.conf
+echo '[daemon]
+AutomaticLoginEnable=True
+AutomaticLogin=seu_usuario' | sudo tee /etc/gdm3/custom.conf
 
 # configurar nome pdv
 
-sudo nano /etc/lightdm/lightdm.conf
+sudo nano /etc/gdm3/custom.conf
 
 # Reiniciar
 
